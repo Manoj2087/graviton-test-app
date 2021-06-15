@@ -1,5 +1,5 @@
 # Sample nodejs application
-FROM node:14
+FROM public.ecr.aws/bitnami/node:14
 WORKDIR /usr/src/app
 COPY package*.json app.js ./
 RUN npm install
